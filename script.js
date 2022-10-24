@@ -1,7 +1,5 @@
-"use strict";
+let Subject = "Some Name";
 
-const x = prompt("Enter a number: ");
-const name = 'raihan "06"';
-const title = "it's good to see you";
-
-console.log(title);
+let li1 = document.createElement("li");
+li1.innerHTML = Subject;
+document.body.appendChild(li1);

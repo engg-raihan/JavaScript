@@ -1,5 +1,9 @@
-let Subject = "Some Name";
+let Name = "Raihan";
 
-let li1 = document.createElement("li");
-li1.innerHTML = Subject;
+function SID(year, dept, roll) {
+  return year + dept + roll;
+}
+
+var li1 = document.createElement("li");
+li1.innerHTML = Name + " - " + SID("22", "312", "007");
 document.body.appendChild(li1);

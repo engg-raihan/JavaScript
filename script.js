@@ -8,4 +8,5 @@ var li1 = document.createElement("li");
 li1.innerHTML = Name + " - " + SID("22", "312", "007");
 document.body.appendChild(li1);
 
+console.log("I'm Developer B");
 console.log("I'm Developer  A");
